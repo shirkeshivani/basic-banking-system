@@ -1,0 +1,102 @@
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+    overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 7px 10px;
+ 
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 2px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(231, 15, 15);
+
+}
+
+.header-right {
+  float:right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.bank {
+    background-image:url('img/bank.png');
+    background-position:right;
+    background-repeat:no-repeat;
+    background-color: #76c98a;
+    padding: 80px 10px;
+  }
+
+  .bank h3{
+      color: rgb(7, 7, 7);
+      font-weight: lighter;
+     font-size: 30px;
+      padding-left: 250px;
+      letter-spacing: 0.5px;
+  }
+  .bank h1{
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 190px;
+    letter-spacing: 0.5px; 
+}
+.img-container {
+    display: flex;
+     justify-content: center;
+     
+  }
+  
+.img-container img {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 7px 7px;
+    letter-spacing: 0.5px;
+  }
+
+  
